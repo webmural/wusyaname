@@ -1,0 +1,18 @@
+mark {
+  background: #ddd;
+  color: #300000;
+}
+
+::selection {
+  background: forestgreen;
+  color: black;
+}
+
+:root {
+  background: coral;
+  color: #300000;
+}
+
+:any-link {
+  color: #300000;
+}

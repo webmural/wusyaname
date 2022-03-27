@@ -1,0 +1,23 @@
+mark {
+  background: #f7b4c6;
+  color: #111;
+}
+
+::selection {
+  background: slategray;
+  color: black;
+}
+
+:root {
+  background: black;
+  color: silver;
+}
+
+:any-link {
+  color: #f7b4c6;
+}
+
+@media (prefers-contrast: less) {
+  mark { color: #310 }
+  :root { background: #310 }
+}
